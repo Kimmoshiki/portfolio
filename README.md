@@ -23,4 +23,4 @@ __강조글자__
 ---
 
 ### 이미지 삽입하기
-![짱잘생긴허스키사진]([[https://pbs.twimg.com/media/EWN6OyLVAAI6HKA.jpg](https://post-phinf.pstatic.net/MjAxNzExMjBfOTUg/MDAxNTExMTQzNjgyOTk4.m6Agztb2UjiZ-KMjzPUZPhVvmc3FDOOzjABIscNLW-cg.zfJyqmulfwB_Ayy7Hvlsfjrrjt6HaTkW8wuwsbyxKnog.PNG/20171120_110802.png?type=w1200](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGzxKiZqhoP6QB2a9pc2o2lVwHlEYoTQGWzAeC_Os_k-mNCWYxk6fxU0PyurY36XCUlc&usqp=CAU))"허스키씨사진")
+![짱잘생긴허스키사진](![image](https://user-images.githubusercontent.com/112531696/203675837-eb6d51be-dbf6-4807-a8c7-140eaf27f8f4.png)"허스키씨사진")
