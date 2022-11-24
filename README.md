@@ -18,4 +18,9 @@ __강조글자__
 ---
 
 ### 하이퍼링크
-[네이버](https://www.naver.com "링크 설명(title)을 ")
+[네이버](https://www.naver.com "링크 설명(title)을 넣기")
+
+---
+
+### 이미지 삽입하기
+![짱멋진늑대사진](https://pbs.twimg.com/media/EWN6OyLVAAI6HKA.jpg)
