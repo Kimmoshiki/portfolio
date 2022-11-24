@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포토폴리오</title>
+    <!-- 파비콘 서식 -->
+    <link rel="favicon" href="./images/favicon.ico">
+    <!-- 초기화 서식 -->
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <!-- 레이아웃 서식 -->
+    <link rel="stylesheet" href="./css/layout.css">
+    <!-- 메인서식 -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- 벤더프리픽스 -->
+    <script src="./script/prefixfree.min.js"></script>
+    <!-- 제이쿼리 라이브러리 연결 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- 제이쿼리 ui -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- 스크립트 -->
+    <script src="./script/script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="inner">
+        <h1><a href="#" title="메인페이지"><img src="./images/logo.svg" alt="상단로고"></a></h1>
+            <h2 class="text"></h2>
+            <nav>
+                <ul class="gnb">
+                    <li><a href="#" title="Intro" class="on" data-anchor="intro">Intro</a></li>
+                    <li><a href="#" title="Profile" data-anchor="profile">Profile</a></li>
+                    <li><a href="#" title="Project " data-anchor="project01">Project</a>
+                      <ul class="sub">
+                        <li><a href="#" title="project01" data-anchor="project01">project01</a></li>
+                        <li><a href="#" title="project02" data-anchor="project02">project02</a></li>
+                        <li><a href="#" title="project03" data-anchor="project03">project03</a></li>
+                        <li><a href="#" title="project04" data-anchor="project04">project04</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>portfolio</h2>
+            <p>도전적 정신, 유연한 커뮤니케이션</p>
+            <div id="wave"></div>
+            <img src="./images/intro_item.png" alt="종이배" class="item01">
+        </section>
+        <section class="profile" id="profile">
+            <h2>Profile</h2>
+            <div class="inner">
+                <!-- <img src="./images/tiket.png" alt="프로필 배경" class="p_bg"> -->
+                <img src="./images/profile_img.jpg" alt="프로필 사진" class="p_img">
+
+                <div class="p_left_box">
+                <div class="name_box">
+                    <h2>김현지</h2>
+                    <p>2004.12.09</p>
+                </div>
+                <div class="sns_num">
+                    <p>Tel. 010.8716.4570</p>
+                    <p>email. zezeda1209&#x0040;naver.com</p>
+                  </div>
+                </div>
+
+                  <div class="profile_box">
+                    <div class="p_text_box">
+                        <h3>Education</h3>
+                        <p>2022.08 ~ 2022.11 &#x007C; 그린컴퓨터아트학원<br>
+                            프론트엔드 개발자로 가는 UI/UX반응형 웹페블리셔</p>
+                        <p>2020.03 ~ 재학중 &#x007C; 경민It고등학교</p>
+                    </div>
+    
+                    <div class="p_text_box">
+                        <h3>License</h3>
+                        <p>2020 &#x007C; GTQ 1급</p>
+                        <p>2022 &#x007C; 컴퓨터그래픽스 운용기능사</p>
+                    </div>
+    
+                    <div class="p_text_box">
+                        <h3>Like</h3>
+                        <p>책, 음악감상</p>
+                    </div>
+                    
+                </div>
+                <!-- 스킬 -->
+                <div class="p_skill_box">
+                    <h3>Skill</h3>
+                    <ul class="skill">
+                        <li>
+                            <h4>HTML</h4>
+                            <div class="bar_wrap">
+                                <div class="bar html"></div>
+                                <p>85%</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>CSS</h4>
+                            <div class="bar_wrap">
+                                <div class="bar css"></div>
+                                <p>80%</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>javascript</h4>
+                            <div class="bar_wrap">
+                                <div class="bar js"></div>
+                            <p>60%</p>
+                        </div>
+                        </li>
+                        <li>
+                            <h4>ps</h4>
+                            <div class="bar_wrap">
+                                <div class="bar ps"></div>
+                                <p>75%</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>ai</h4>
+                            <div class="bar_wrap">
+                                <div class="bar ai"></div>
+                                <p>85%</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Figma</h4>
+                            <div class="bar_wrap">
+                                <div class="bar Figma"></div>
+                                <p>85%</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 동서식품 -->
+        <section id="project01" class="pro">
+            <h3>project01</h3>
+            <div class="con">
+                <img src="./images/Mockup_dongseo.jpg" alt="동서식품 목업">
+                <div class="c_txtwrap c_left">
+                    <h3 class="pro_title">project01<br><span class="t_color">'dongseo food'</span></h3>
+                    <div class="c_txtbox01">
+                        <h4>제작기간</h4>
+                        <p>약 한달</p>
+                    </div>
+                        <div class="c_txtbox02">
+                        <h4>제작물</h4>
+                        <p>반응형 메인페이지</p>
+                    </div>
+                    <div class="c_txtbox03">
+                        <h4>메인색상</h4>
+                        <div class="color_wrap">
+                            <div class="d_color01 color"></div>
+                            <div class="d_color02 color"></div>
+                            <div class="d_color03 color"></div>
+                        </div>
+                    </div>
+                    <div class="c_txtbox04">
+                        <h4>작업내용</h4>
+                        <p>(주)동서의 동서식품의 메인페이지를 제작하였습니다. 부족한 콘텐츠을 추가하고 레이아웃을 변경하여 새롭게 디자인해보았습니다.</p>
+                    </div>
+                </div>
+                <a href="http://kimmoshiki.dothome.co.kr/dongseo/index.html" title="프로젝트 보러가기" class="btn">프로젝트 보러가기</a>
+                <a href="https://www.dongsuh.co.kr/2017/00_main/main.asp" title="오리지널 보러가기" class="btn">오리지널 보러가기</a>
+            </div>
+        </section>
+
+        <!-- 쑤니카페 -->
+        <section id="project02" class="pro">
+            <h3>project02</h3>
+            <div class="con">
+                <img src="./images/Mockup_ssuni.jpg" alt="쑤니카페 목업">
+                <div class="c_txtwrap c_right">
+                    <h3 class="pro_title">project02<br><span class="t_color">'ssuni caffe'</span></h3>
+                    <div class="c_txtbox01">
+                    <h4>제작기간</h4>
+                    <p>약 7일</p>
+                </div>
+                    <div class="c_txtbox02">
+                    <h4>제작물</h4>
+                    <p>반응형 메인페이지</p>
+                </div>
+                <div class="c_txtbox03">
+                    <h4>메인색상</h4>
+                    <div class="color_wrap">
+                        <div class="s_color01 color"></div>
+                        <div class="s_color02 color"></div>
+                    </div>
+                </div>
+                <div class="c_txtbox04">
+                    <h4>작업내용</h4>
+                    <p>쑤니카페의 메인페이지를 제작하였습니다. 파비콘 제작과 그리드를 활용하여 레이아웃을 제작하는 작업을 하였습니다.</p>
+                </div>
+                </div>
+                <a href="https://kimmoshiki.github.io/ssuni/" title="프로젝트 보러가기" class="btn">프로젝트 보러가기</a>
+            </div>
+        </section>
+
+        <!-- 퍼퓸그라피 -->
+        <section id="project03" class="pro">
+            <h3>project03</h3>
+            <div class="con">
+                <img src="./images/Mockup_perfumegraphy.jpg" alt="퍼퓸그라피 목업">
+                <div class="c_txtwrap c_left">
+                    <h3 class="pro_title">project03<br><span class="t_color">'perfumegraphy'</span></h3>
+                    <div class="c_txtbox01">
+                        <h4>제작기간</h4>
+                        <p>약 한달</p>
+                    </div>
+                        <div class="c_txtbox02">
+                        <h4>제작물</h4>
+                        <p>Pc 메인페이지</p>
+                    </div>
+                    <div class="c_txtbox03">
+                        <h4>메인색상</h4>
+                        <div class="color_wrap">
+                            <div class="p_color01 color"></div>
+                            <div class="p_color02 color"></div>
+                            <div class="p_color03 color"></div>
+                            <div class="p_color04 color"></div>
+                            <div class="p_color05 color"></div>
+                        </div>
+                    </div>
+                    <div class="c_txtbox04">
+                        <h4>작업내용</h4>
+                        <p>퍼퓸그라피의 메인페이지와 로그인 페이지를 제작해보았다.동적인 콘텐츠와 콘텐츠의 종류가 다양하지 않아 추가하여 디자인 후 제작하였다.</p>
+                    </div>
+                </div>
+                <a href="https://www.perfumegraphy.com/" title="오리지널 보러가기" class="btn">오리지널 보러가기</a>
+                <a href="https://kimmoshiki.github.io/perfurmegraphy_project/" title="프로젝트 보러가기" class="btn">프로젝트 보러가기</a>
+            </div>
+        </section>
+
+        <!-- 헤로피커피 -->
+        <section id="project04" class="pro">
+            <h3>project04</h3>
+            <div class="con">
+                <img src="./images/Mockup_heropy_coffee.jpg" alt="헤로피커피 목업">
+                <div class="c_txtwrap c_right">
+                    <h3 class="pro_title">project04<br><span class="t_color">'heropy coffee'</span></h3>
+                    <div class="c_txtbox01">
+                        <h4>제작기간</h4>
+                        <p>약 2주</p>
+                    </div>
+                        <div class="c_txtbox02">
+                        <h4>제작물</h4>
+                        <p>Pc 메인페이지</p>
+                    </div>
+                    <div class="c_txtbox03">
+                        <h4>메인색상</h4>
+                        <div class="color_wrap">
+                            <div class="h_color01 color"></div>
+                            <div class="h_color02 color"></div>
+                            <div class="h_color03 color"></div>
+                            <div class="h_color04 color"></div>
+                        </div>
+                    </div>
+                    <div class="c_txtbox04">
+                        <h4>작업내용</h4>
+                        <p>헤로피커피의 메인페이지를 제작하였습니다. 다양한 소스를 활용하여 동적인 움직임을 적용시켰고 배경을 고정시키는 효과를 사용하여 다른 느낌의 동적인 효과를 주었습니다.</p>
+                    </div>
+                </div>
+                <a href="https://kimmoshiki.github.io/coffee/" title="프로젝트 보러가기" class="btn">프로젝트 보러가기</a>
+            </div>
+        </section>
+
+        <!-- <section>
+            <ul>
+                <li>
+                    <div class="img_wrap">
+                        <img src="" alt="">
+                        <h3></h3>
+                    </div>
+                </li>
+            </ul>
+        </section> -->
+    </main>
+        <!-- 웨이브 스크립트 -->
+        <script type="module" src="./script/app.js"></script>
+</body>
+</html>
