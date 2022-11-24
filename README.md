@@ -23,4 +23,8 @@ __강조글자__
 ---
 
 ### 이미지 삽입하기
-![짱잘생긴허스키사진](![image](https://user-images.githubusercontent.com/112531696/203675837-eb6d51be-dbf6-4807-a8c7-140eaf27f8f4.png)"허스키씨사진")
+![짱멋진늑대사진](https://pbs.twimg.com/media/EWN6OyLVAAI6HKA.jpg "늑대씨사진")
+
+---
+### 이미지 링크걸기
+[![다음로고](https://user-images.githubusercontent.com/112531696/203676082-45c9d2a7-42a2-45da-bb52-e55e7c65f7f0.png "다음로고")](https://www.daum.net '다음사이트 바로가기')
