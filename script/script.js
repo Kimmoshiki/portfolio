@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('.gnb li:last-child').hover(function(){
+    $('.gnb li:nth-child(3)').hover(function(){
         $('.sub').stop().slideDown();
     },function(){
         $('.sub').stop().slideUp();
@@ -72,18 +72,18 @@ $(document).ready(function(){
             $('.skill .bar_wrap .ai').delay(3000).animate({'width':'85%'},3000);
             $('.skill .bar_wrap .Figma').delay(3000).animate({'width':'85%'},3500);
         }
-        if(sPos>=1800){ //프로젝트
+        if(sPos>=1700){ //프로젝트
             $('.gnb > li a').removeClass('on');
-            $('.gnb > li:last-child > a').addClass('on');
+            $('.gnb > li:nth-child(3) > a').addClass('on');
             $('#project01 > .con > img').animate({'opacity':'1'},1500).animate({'top':'0px'},1000);
             $('#project01 .btn').animate({'opacity':'1'},700).animate({'top':'650px'},700);
-            $('#project01 .pro_title').delay(1000).animate({'opacity':'1'},700).animate({'left':'80px'},500);
-            $('#project01 .c_txtbox01').delay(1000).animate({'opacity':'1'},700).animate({'left':'95px'},1000);
-            $('#project01 .c_txtbox02').delay(1000).animate({'opacity':'1'},700).animate({'left':'95px'},1500);
-            $('#project01 .c_txtbox03').delay(1000).animate({'opacity':'1'},700).animate({'left':'95px'},1800);
-            $('#project01 .c_txtbox04').delay(1000).animate({'opacity':'1'},700).animate({'left':'95px'},2000);
+            $('#project01 .pro_title').delay(1000).animate({'opacity':'1'},700).animate({'left':'70px'},500);
+            $('#project01 .c_txtbox01').delay(1000).animate({'opacity':'1'},700).animate({'left':'85px'},1000);
+            $('#project01 .c_txtbox02').delay(1000).animate({'opacity':'1'},700).animate({'left':'85px'},1500);
+            $('#project01 .c_txtbox03').delay(1000).animate({'opacity':'1'},700).animate({'left':'85px'},1800);
+            $('#project01 .c_txtbox04').delay(1000).animate({'opacity':'1'},700).animate({'left':'85px'},2000);
         }
-        if(sPos>=3000){
+        if(sPos>=2800){
             $('#project02 > .con > img').animate({'opacity':'1'},1500).animate({'top':'0px'},1000);
             $('#project02 .btn').animate({'opacity':'1'},700).animate({'top':'650px'},700);
             $('#project02 .pro_title').delay(1000).animate({'opacity':'1'},700).animate({'right':'160px'},500);
@@ -92,16 +92,16 @@ $(document).ready(function(){
             $('#project02 .c_txtbox03').delay(1000).animate({'opacity':'1'},700).animate({'right':'245px'},1800);
             $('#project02 .c_txtbox04').delay(1000).animate({'opacity':'1'},700).animate({'right':'155px'},2000);
         }
-        if(sPos>=4100){
+        if(sPos>=3900){
             $('#project03 > .con > img').animate({'opacity':'1'},1500).animate({'top':'0px'},1000);
             $('#project03 .btn').animate({'opacity':'1'},700).animate({'top':'600px'},700);
-            $('#project03 .pro_title').delay(1000).animate({'opacity':'1'},700).animate({'left':'80px'},500);
-            $('#project03 .c_txtbox01').delay(1000).animate({'opacity':'1'},700).animate({'left':'95px'},1000);
-            $('#project03 .c_txtbox02').delay(1000).animate({'opacity':'1'},700).animate({'left':'95px'},1500);
-            $('#project03 .c_txtbox03').delay(1000).animate({'opacity':'1'},700).animate({'left':'95px'},1800);
-            $('#project03 .c_txtbox04').delay(1000).animate({'opacity':'1'},700).animate({'left':'95px'},2000);
+            $('#project03 .pro_title').delay(1000).animate({'opacity':'1'},700).animate({'left':'70px'},500);
+            $('#project03 .c_txtbox01').delay(1000).animate({'opacity':'1'},700).animate({'left':'85px'},1000);
+            $('#project03 .c_txtbox02').delay(1000).animate({'opacity':'1'},700).animate({'left':'85px'},1500);
+            $('#project03 .c_txtbox03').delay(1000).animate({'opacity':'1'},700).animate({'left':'85px'},1800);
+            $('#project03 .c_txtbox04').delay(1000).animate({'opacity':'1'},700).animate({'left':'85px'},2000);
         }
-        if(sPos>=5200){
+        if(sPos>=5000){
             $('#project04 > .con > img').animate({'opacity':'1'},1500).animate({'top':'0px'},1000);
             $('#project04 .btn').animate({'opacity':'1'},700).animate({'top':'650px'},700);
             $('#project04 .pro_title').delay(1000).animate({'opacity':'1'},700).animate({'right':'160px'},500);
